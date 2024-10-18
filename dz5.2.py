@@ -27,4 +27,6 @@ for i in range(len(prime)):
     if is_palindrom(n) == True:
         num_plndrm.append(n)
 
+
+print('ОШИБКА В РЕШЕНИИ')
 print('Простые числа палиндромы меньше n: ', num_plndrm)
