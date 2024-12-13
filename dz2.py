@@ -1,3 +1,19 @@
+#1
+a = int(input())
+b = int(input())
+if a == 0 or b == 0:
+    print("Нельзя делить на ноль!")
+else:
+    print(a/b, b/a)
+
+#2
+s = float(input())
+if s > 20:
+    print(round(s*0.65, 2), round(s*0.35, 2))
+else:
+    print(round(s,2), 0)
+
+#3
 a = int(input())
 if 1 <= a <= 12:
     if a == 1:
