@@ -78,11 +78,3 @@ class Book:
     @classmethod
     def create_default_year(cls, title, author):
         return cls(title, author, 2024)
-
-
-# Пример работы кода:
-book1 = Book("1984", "George Orwell", 1949)
-print(book1.get_info())  # Вывод: "1984, автор: George Orwell, год: 1949"
-
-book2 = Book.create_default_year("Brave New World", "Aldous Huxley")
-print(book2.get_info())  # Вывод: "Brave New World, автор: Aldous Huxley, год: 2024"
